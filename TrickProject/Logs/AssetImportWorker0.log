@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ko' Physical Memory: 8143 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16320 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Desktop/TrickProject/TrickProject
+C:/Users/admin/TrickProject/TrickProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-2799
-Successfully changed project path to: C:/Users/user/Desktop/TrickProject/TrickProject
-C:/Users/user/Desktop/TrickProject/TrickProject
+49886
+Successfully changed project path to: C:/Users/admin/TrickProject/TrickProject
+C:/Users/admin/TrickProject/TrickProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,120 +47,114 @@ C:/Users/user/Desktop/TrickProject/TrickProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 97.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 304.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/TrickProject/TrickProject/Assets
+[Subsystems] Discovering subsystems at path C:/Users/admin/TrickProject/TrickProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   NVIDIA
-    VRAM:     2988 MB
-    Driver:   30.0.15.1215
+    VRAM:     4017 MB
+    Driver:   31.0.15.4633
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011483 seconds.
+Registered in 0.060014 seconds.
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 114.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 333.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
+- Completed reload, in  4.042 seconds
 Domain Reload Profiling:
-	ReloadAssembly (825ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (4047ms)
+		BeginReloadAssembly (523ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (572ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			CreateAndSetChildDomain (7ms)
+		EndReloadAssembly (2892ms)
+			LoadAssemblies (501ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (527ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (360ms)
+			RebuildScriptCaches (196ms)
+			SetupLoadedEditorAssemblies (1833ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (81ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				InitializePlatformSupportModulesInManaged (492ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (334ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (675ms)
+				ProcessInitializeOnLoadMethodAttributes (324ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009469 seconds.
+Registered in 0.053537 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\TrickProject\TrickProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\admin\TrickProject\TrickProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\TrickProject\TrickProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\admin\TrickProject\TrickProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-No DOTween found, animation sequencer will be disabled until DOTween setup is complete and asmdef files are created
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-BrunoMikoski.AnimationSequencer.AnimationSequencerSetupHelper:.cctor () (at Library/PackageCache/com.brunomikoski.animationsequencer@0.5.4/Scripts/Editor/Core/AnimationSequencerSetupHelper.cs:34)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.brunomikoski.animationsequencer@0.5.4/Scripts/Editor/Core/AnimationSequencerSetupHelper.cs Line: 34)
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.399 seconds
+- Completed reload, in  6.388 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1400ms)
-		BeginReloadAssembly (258ms)
+	ReloadAssembly (6392ms)
+		BeginReloadAssembly (895ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (44ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (134ms)
-		EndReloadAssembly (983ms)
-			LoadAssemblies (121ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (258ms)
+		EndReloadAssembly (4915ms)
+			LoadAssemblies (663ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (295ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (472ms)
+			SetupTypeCache (1246ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (289ms)
+			SetupLoadedEditorAssemblies (2559ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (313ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (146ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (388ms)
+				ProcessInitializeOnLoadAttributes (1813ms)
+				ProcessInitializeOnLoadMethodAttributes (151ms)
+				AfterProcessingInitializeOnLoad (54ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 8.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (112.8 KB). Loaded Objects now: 3871.
-Memory consumption went from 119.9 MB to 119.8 MB.
-Total: 4.404600 ms (FindLiveObjects: 0.447600 ms CreateObjectMapping: 0.123100 ms MarkObjects: 3.680300 ms  DeleteObjects: 0.151600 ms)
+Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (112.6 KB). Loaded Objects now: 3884.
+Memory consumption went from 122.1 MB to 122.0 MB.
+Total: 16.677800 ms (FindLiveObjects: 2.290100 ms CreateObjectMapping: 1.726100 ms MarkObjects: 12.045100 ms  DeleteObjects: 0.613500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -174,212 +168,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3462.193269 seconds.
-  path: Assets/Resources/DOTweenSettings.asset
-  artifactKey: Guid(7a0b7cb45cac4e34a9db9186992d9e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DOTweenSettings.asset using Guid(7a0b7cb45cac4e34a9db9186992d9e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2544fa36e4e08df77c86fff7f93534b') in 0.054721 seconds 
+  Time since last request: 1238810.330632 seconds.
+  path: Assets/UI
+  artifactKey: Guid(dd1abb572c1193f459c026fdc15554c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI using Guid(dd1abb572c1193f459c026fdc15554c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cead8c486d26bdc4393143f848cabd') in 0.046838 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/DOTween/Editor/Imgs/DOTweenIcon.png
-  artifactKey: Guid(d6757e026be6aef499984213727c065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(d6757e026be6aef499984213727c065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d1ad1ecc405579b167b1f1d3708e7b') in 0.126684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.842854 seconds.
-  path: Assets/DOTween/Modules/DOTweenModuleAudio.cs
-  artifactKey: Guid(7a503dc5039419e40a55e8b5947c6e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Modules/DOTweenModuleAudio.cs using Guid(7a503dc5039419e40a55e8b5947c6e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e3559ec8acd51dbc92f2106e39c022') in 0.012804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.817120 seconds.
-  path: Assets/DOTween/Modules/DOTweenModulePhysics2D.cs
-  artifactKey: Guid(f6d15101084ab904697c6df6a765e20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Modules/DOTweenModulePhysics2D.cs using Guid(f6d15101084ab904697c6df6a765e20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8bf74692e80eadf01ad06129fb51d2') in 0.009737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.470214 seconds.
-  path: Assets/DOTween/Modules/DOTweenModulePhysics.cs
-  artifactKey: Guid(be53da3136d14c544a8eec827893b90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Modules/DOTweenModulePhysics.cs using Guid(be53da3136d14c544a8eec827893b90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dee9d484f0772d7b68ee4b2afecc456') in 0.009924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.325095 seconds.
-  path: Assets/DOTween/Modules/DOTweenModuleEPOOutline.cs
-  artifactKey: Guid(97642c573082c9a46aa44ad8d16916a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Modules/DOTweenModuleEPOOutline.cs using Guid(97642c573082c9a46aa44ad8d16916a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc153101adea00ac2acf0c2fb344467') in 0.011290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.370158 seconds.
-  path: Assets/DOTween/Modules/DOTweenModuleSprite.cs
-  artifactKey: Guid(605435bac843a6443ba0059c6d8f247c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Modules/DOTweenModuleSprite.cs using Guid(605435bac843a6443ba0059c6d8f247c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24beae25c98371c344cc2e3b3ef79b3e') in 0.009787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.540876 seconds.
-  path: Assets/DOTween/Modules/DOTweenModuleUI.cs
-  artifactKey: Guid(c60ac497b8f518b46bb28fdb20fc2081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Modules/DOTweenModuleUI.cs using Guid(c60ac497b8f518b46bb28fdb20fc2081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197ea665da836ebbd3bb3e5fe758f09e') in 0.009047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.763558 seconds.
-  path: Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs
-  artifactKey: Guid(4870399b279d85d4d8bcd6bcc3fef326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs using Guid(4870399b279d85d4d8bcd6bcc3fef326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dacbd391246f3df778e37d3d004a483') in 0.010868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.377563 seconds.
-  path: Assets/DOTween/Modules/DOTweenModuleUtils.cs
-  artifactKey: Guid(ad99f39a439fc364c88d602a0d5b2db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Modules/DOTweenModuleUtils.cs using Guid(ad99f39a439fc364c88d602a0d5b2db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e17e9d822d45bea524d9c9ccad7f81') in 0.011100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.656295 seconds.
-  path: Assets/DOTween/Modules/DOTween.Modules.asmdef
-  artifactKey: Guid(5c8420c4926033943855640795585558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Modules/DOTween.Modules.asmdef using Guid(5c8420c4926033943855640795585558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f92470d9bf1cfb52c8b27a81fa96896') in 0.014378 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009975 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\TrickProject\TrickProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\TrickProject\TrickProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-No DOTween found, animation sequencer will be disabled until DOTween setup is complete and asmdef files are created
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-BrunoMikoski.AnimationSequencer.AnimationSequencerSetupHelper:.cctor () (at Library/PackageCache/com.brunomikoski.animationsequencer@0.5.4/Scripts/Editor/Core/AnimationSequencerSetupHelper.cs:34)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.brunomikoski.animationsequencer@0.5.4/Scripts/Editor/Core/AnimationSequencerSetupHelper.cs Line: 34)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.313 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1314ms)
-		BeginReloadAssembly (195ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		EndReloadAssembly (977ms)
-			LoadAssemblies (142ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (331ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (425ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (276ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (79.6 KB). Loaded Objects now: 3876.
-Memory consumption went from 118.1 MB to 118.0 MB.
-Total: 5.226600 ms (FindLiveObjects: 0.389300 ms CreateObjectMapping: 0.108800 ms MarkObjects: 4.578000 ms  DeleteObjects: 0.148800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 64.005726 seconds.
-  path: Assets/Resources/DOTweenSettings.asset
-  artifactKey: Guid(7a0b7cb45cac4e34a9db9186992d9e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DOTweenSettings.asset using Guid(7a0b7cb45cac4e34a9db9186992d9e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd3531e4f5435dbc50d7b083de59d78') in 0.030103 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009591 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\TrickProject\TrickProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\TrickProject\TrickProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-No DOTween found, animation sequencer will be disabled until DOTween setup is complete and asmdef files are created
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-BrunoMikoski.AnimationSequencer.AnimationSequencerSetupHelper:.cctor () (at Library/PackageCache/com.brunomikoski.animationsequencer@0.5.4/Scripts/Editor/Core/AnimationSequencerSetupHelper.cs:34)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.brunomikoski.animationsequencer@0.5.4/Scripts/Editor/Core/AnimationSequencerSetupHelper.cs Line: 34)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.408 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1409ms)
-		BeginReloadAssembly (183ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1035ms)
-			LoadAssemblies (165ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (339ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (448ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (296ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (79.7 KB). Loaded Objects now: 3879.
-Memory consumption went from 118.1 MB to 118.0 MB.
-Total: 3.446900 ms (FindLiveObjects: 0.326700 ms CreateObjectMapping: 0.082400 ms MarkObjects: 2.933400 ms  DeleteObjects: 0.103000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.856344 seconds.
+  path: Assets/UIGradient
+  artifactKey: Guid(048d8fd159699374fb9edde08a7b66e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIGradient using Guid(048d8fd159699374fb9edde08a7b66e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fec32cfedaeecdadbf553e5f483254') in 0.016638 seconds 

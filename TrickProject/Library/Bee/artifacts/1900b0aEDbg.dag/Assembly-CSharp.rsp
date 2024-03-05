@@ -107,6 +107,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -115,8 +116,11 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:DOTWEEN
+-define:DOTWEEN_ENABLED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Packages/DOTween/DOTween.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -322,8 +326,15 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
--r:"C:/Users/82102/Desktop/TrickProject/TrickProject/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"C:/Users/82102/Desktop/TrickProject/TrickProject/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Users/admin/TrickProject/TrickProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.1/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/admin/TrickProject/TrickProject/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"C:/Users/admin/TrickProject/TrickProject/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/BrunoMikoski.AnimationSequencer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/BrunoMikoski.AnimationSequencer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/DOTween.Modules.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UIEffect.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -347,6 +358,14 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/Packages/TextMeshAnimator/TextMeshAnimator.cs"
+"Assets/Packages/UIGradient/Assets/Scripts/SetDirty.cs"
+"Assets/Packages/UIGradient/Assets/Scripts/UICornersGradient.cs"
+"Assets/Packages/UIGradient/Assets/Scripts/UIGradient.cs"
+"Assets/Packages/UIGradient/Assets/Scripts/UIGradientUtils.cs"
+"Assets/Packages/UIGradient/Assets/Scripts/UITextCornersGradient.cs"
+"Assets/Packages/UIGradient/Assets/Scripts/UITextGradient.cs"
+"Assets/Script/GameManager.cs"
 "Assets/Script/PRtest.cs"
 -langversion:9.0
 
