@@ -178,3 +178,9 @@ Received Import Request.
   path: Assets/UIGradient
   artifactKey: Guid(048d8fd159699374fb9edde08a7b66e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/UIGradient using Guid(048d8fd159699374fb9edde08a7b66e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fec32cfedaeecdadbf553e5f483254') in 0.016638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 773.962597 seconds.
+  path: Assets/New Folder 1
+  artifactKey: Guid(578574a76345b7547b10e08f45da3189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder 1 using Guid(578574a76345b7547b10e08f45da3189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af035cef70d2d241fdbcc243392870f9') in 0.012040 seconds 
