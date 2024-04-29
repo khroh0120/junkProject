@@ -1,0 +1,14 @@
+﻿{
+	"Scenario": [
+		{
+			"Index": 1,
+			"SceneID": "Scene01_Prologue", 
+			"SceneName": "프롤로그1", 
+			"BeforeScene": "", 
+			"NextScene": [], 
+			"RequireCharacterFavorAbility": "", 
+			"RequireFavorabilityNumber": 0,
+			"RequireTrigger": ""
+		}
+	]
+}
